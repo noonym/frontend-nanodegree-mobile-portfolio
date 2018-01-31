@@ -53,3 +53,11 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+### Optimization Made
+
+1. Inlined CSS.
+2. downloaded analytics.js locally.
+3. downloaded all images locally.
+4. optimized all images using tinypng.com.
+5. minified html, css and js using gulp.js.
