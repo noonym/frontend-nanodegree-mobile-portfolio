@@ -57,7 +57,10 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 ### Optimization Made
 
 1. Inlined CSS.
-2. downloaded analytics.js locally.
-3. downloaded all images locally.
-4. optimized all images using tinypng.com.
-5. minified html, css and js using gulp.js.
+2. Downloaded analytics.js locally.
+3. Downloaded all images locally.
+4. Optimized all images using tinypng.com.
+5. Minified html, css and js using gulp.js.
+6. Changed `<querySelector>` to `<getElementById()>` on few lines.
+7. Declaring few variables in the initialisation of the `<for>` loops instead of in the bodies.
+8. Dynamically calculated the number of pizzas, based on browser window resolution using `<window.screen.width>` and `<window.screen.height>`.
